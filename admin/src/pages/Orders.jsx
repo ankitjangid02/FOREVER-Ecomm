@@ -20,8 +20,6 @@ const Orders = ({ token }) => {
       if (response.data.success) {
         setOrders(response.data.orders.reverse())
       } else {
-        <p>abcd</p>
-
         toast.error(response.data.message)
       }
 
