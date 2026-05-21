@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { backendUrl } from '../App'
 import { useNavigate } from 'react-router-dom'
+import { assets } from '../assets/assets'
 
 const Home = () => {
 
@@ -50,7 +51,7 @@ const Home = () => {
     <div className='w-full p-6'>
 
       <h1 className='text-3xl font-bold text-gray-700 mb-2'>
-        Welcome Back Admin 👋
+        Welcome, Admin
       </h1>
 
       <p className='text-gray-500 mb-10'>
@@ -85,23 +86,25 @@ const Home = () => {
 
         <button
           onClick={() => navigate('/add')}
-          className='bg-gray-200 hover:bg-black hover:text-white text-gray-700 px-6 py-3 rounded-lg transition-all duration-300'
+          className='flex items-center gap-2 bg-gray-200 hover:bg-black hover:text-white text-gray-700 px-6 py-3 rounded-lg transition-all duration-300'
         >
-          ➕ Add Product
+        <img className='w-5 h-5' src={assets.add_icon} alt="" />
+         Add Product
         </button>
 
         <button
           onClick={() => navigate('/list')}
-          className='bg-gray-200 hover:bg-black hover:text-white text-gray-700 px-6 py-3 rounded-lg transition-all duration-300'
+          className='flex items-center gap-2 bg-gray-200 hover:bg-black hover:text-white text-gray-700 px-6 py-3 rounded-lg transition-all duration-300'
         >
-          📋 Product List
+        <img className='w-5 h-5' src={assets.order_icon} alt="" />Product List
         </button>
 
         <button
           onClick={() => navigate('/orders')}
-          className='bg-gray-200 hover:bg-black hover:text-white text-gray-700 px-6 py-3 rounded-lg transition-all duration-300'
+          className='flex items-center gap-2 bg-gray-200 hover:bg-black hover:text-white text-gray-700 px-6 py-3 rounded-lg transition-all duration-300'
         >
-          📦 Orders
+        <img className='w-5 h-5' src={assets.add_icon} alt="" />
+         Orders
         </button>
 
       </div>
