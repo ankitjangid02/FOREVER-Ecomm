@@ -43,7 +43,7 @@ const NavBar = () => {
       </ul>
 
       <div className='flex item-center gap-6'>
-        <img onClick={()=>setShowSearch(true)} src={assets.search_icon} className='w-5 cursor-pointer' alt="" />
+        <Link to='/collection'><img onClick={()=>setShowSearch(true)} src={assets.search_icon} className='w-5 cursor-pointer' alt="" /></Link>
         <div className='group relative'>
           <img onClick={()=>token ? null : navigate('/login')} className='w-5 cursor-pointer' src={assets.profile_icon} alt="" />
           {/* Dropdown Menu */}

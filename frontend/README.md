@@ -1,71 +1,183 @@
+# FOREVER Frontend
+
+A modern Full Stack Ecommerce Website frontend built using the MERN Stack.  
+FOREVER provides a premium shopping experience with modern UI, responsive layouts, animations, cart management, and seamless ecommerce functionality.
+
+---
+
+# 🚀 Features
+
+- Modern Ecommerce UI
+- Fully Responsive Design
+- Product Collections
+- Product Details Page
+- Cart Management
+- Place Orders
+- User Authentication
+- Search Functionality
+- Loading Animations
+- AI Chat Assistant
+- Modern Grid Background UI
+- Smooth Transitions & Animations
+
+---
+
+# 🛠 Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- Axios
+- React Router DOM
+- React Toastify
+
+---
+
+# 📦 Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/ankitjangid02/FOREVER-frontend-Ecomm.git
+```
+
+Go to frontend folder:
+
+```bash
+cd frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+# ⚙️ Environment Variables
+
+Create `.env` file:
+
+```env
+VITE_BACKEND_URL=your_backend_url
+```
+
+---
+
+# ▶️ Run Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+# 🌐 Website Structure
+
 # Full Stack Ecommerce Website using MERN Stack
 
 ## Home
-1.1 Navbar  
-1.2 Hero  
-1.3 Latest Collections  
-1.4 Best Seller  
-1.5 Our Policy  
-1.6 Newsletter  
-1.7 Footer  
+- Navbar
+- Hero Section
+- Latest Collections
+- Best Seller
+- Our Policy
+- Newsletter
+- Footer
 
 ## Collection
-2.1 Filter  
-2.1.1 Categories  
-2.1.2 Type  
-2.2 All Collections  
-2.3 Sort by  
+- Filter Products
+  - Categories
+  - Product Type
+- All Collections
+- Sort By
 
 ## Search Bar
 
 ## Product
-4.1 Images  
-4.1.1 All Images  
-4.1.2 Selected Image  
-4.2 Info  
-4.2.1 Name  
-4.2.2 Rating  
-4.2.3 Description  
-4.2.4 Size  
-4.2.5 Add to Cart  
-4.2.6 Product Footer  
-4.3 Long Description  
-4.4 Reviews  
-4.5 Related Products  
+- Product Images
+  - All Images
+  - Selected Image
+- Product Information
+  - Name
+  - Rating
+  - Description
+  - Size Selection
+  - Add to Cart
+  - Product Footer
+- Long Description
+- Reviews
+- Related Products
 
 ## Cart
-5.1 Products  
-5.1.1 Product Image  
-5.1.2 Product Size  
-5.1.3 Product Quantity  
-5.1.4 Delete Product  
-5.2 Total  
-5.2.1 Sub Total  
-5.2.2 Shipping Fee  
-5.2.3 Total  
-5.3 Proceed to Checkout  
+- Cart Products
+  - Product Image
+  - Product Size
+  - Product Quantity
+  - Delete Product
+- Cart Total
+  - Subtotal
+  - Shipping Fee
+  - Total
+- Proceed to Checkout
 
 ## Place Orders
-6.1 Delivery Information  
-6.2 Cart Total  
-6.3 Payment Method  
-6.4 Place Order  
+- Delivery Information
+- Cart Total
+- Payment Method
+- Place Order
 
-## Order
-7.1 Order Details  
-7.2 Ready to Ship  
-7.3 Track Order  
+## Orders
+- Order Details
+- Ready to Ship
+- Track Orders
 
-## Registration Page
-8.1 Login Page  
-8.2 Sign In Page  
+## Authentication
+- Login Page
+- Sign Up Page
 
 ## About Us
-9.1 About Us  
-9.2 Our Mission  
-9.3 Why Choose Us  
-9.4 Newsletter  
+- About Company
+- Our Mission
+- Why Choose Us
+- Newsletter
 
 ## Contact Us
-10.1 Contact Us  
-10.2 Newsletter  
+- Contact Information
+- Newsletter
+
+---
+
+# 📂 Folder Structure
+
+```bash
+src/
+│
+├── assets/
+├── components/
+├── context/
+├── pages/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+# 🌐 Deployment
+
+Frontend deployed using:
+
+- Vercel
+
+---
+
+# 👨‍💻 Developed By
+
+Ankit Jangid
+
+---
+
+# ✨ FOREVER
+
+Code • Build • Learn • Repeat 🚀

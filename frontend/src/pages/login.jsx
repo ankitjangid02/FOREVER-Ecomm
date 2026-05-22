@@ -67,6 +67,8 @@ const login = () => {
         }
       </div>
       <button className='bg-black text-white font-light px-8 py-2 mt-4'>{currentState === 'Login' ? 'Sign In' : 'Sign Up'}</button>
+      {/* <button onClick={() => window.location.href = "https://forever-admin-cyan-rho.vercel.app/"} className='bg-white text-black font-light px-8 py-2 mt-4 cursor-pointer'>Go To Admin Page</button> */}
+      <button onClick={() => window.location.href = "https://forever-admin-cyan-rho.vercel.app/"} className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500'>Go To Admin Page</button>
     </form>
   )
 }
