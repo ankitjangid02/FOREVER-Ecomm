@@ -42,7 +42,7 @@ const Login = ({ setToken }) => {
             <input onChange={(e) => setPassword(e.target.value)} value={password} className='rounded-md w-full px-3 py-2 border border-gray-300 outline-none' type="password" placeholder='Admin Password: qwerty123' required />
           </div>
           <button className='mt-2 w-full py-2 px-4 rounded-md text-white bg-black cursor-pointer' type='submit'>Login</button>
-          <div className='flex justify-center'><button onClick={() => window.location.href = "https://forever-frontend-ecomm-eqig.vercel.app/"} className='bg-white text-black font-light px-8 py-2 mt-4'>GO TO FOREVER</button></div>
+          <div className='flex justify-center'><button onClick={() => window.location.href = "https://forever-frontend-ecomm-eqig.vercel.app/"} className='bg-white text-black font-light px-8 py-2 mt-4 cursor-pointer'>GO TO FOREVER</button></div>
         </form>
       </div>
     </div>
