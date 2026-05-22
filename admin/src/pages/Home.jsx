@@ -48,7 +48,16 @@ const Home = () => {
   }, [])
 
   return (
-    <div className='w-full p-6'>
+    <div
+      className='relative min-h-screen p-6 overflow-hidden'
+      style={{
+        backgroundImage: `
+          linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px)
+        `,
+        backgroundSize: '30px 30px',
+      }}
+    >
 
       <h1 className='text-3xl font-bold text-gray-700 mb-2'>
         Welcome, Admin
