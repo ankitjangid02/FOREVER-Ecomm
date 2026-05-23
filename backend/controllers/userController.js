@@ -8,6 +8,34 @@ const createToken = (id) => {
     return jwt.sign({ id }, process.env.JWT_SECRET)
 }
 
+// Route for Google login
+const googleLogin = async (req, res) => {
+    try {
+        const { name, email } = req.body
+        let user = await userModel.findOne({ email })
+
+        
+        // If user does not exist create new user
+        if (!user) {
+            const newUser = new userModel({
+                name,
+                email,
+                password: "google-auth-user"
+            })
+            user = await newUser.save()
+        }
+
+        // Create JWT token
+        const token = createToken(user._id)
+
+        res.json({success: true,token})
+
+    } catch (error) {
+        console.log(error)
+        res.json({success: false,message: error.message})
+    }
+}
+
 // Route for user login
 const loginUser = async (req, res) => {
     try {
@@ -92,4 +120,4 @@ const adminLogin = async (req, res) => {
     }
 }
 
-export { loginUser, registerUser, adminLogin }
+export { loginUser, registerUser, adminLogin, googleLogin }
