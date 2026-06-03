@@ -54,6 +54,7 @@ The project includes:
 # Login Page
 - Login Page
 - Sign up Page
+- Sign in with Google Account
 
 ---
 
