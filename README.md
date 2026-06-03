@@ -20,6 +20,7 @@ The project includes:
 - Authentication
 - Loading Animations
 - Responsive Design
+- Payment Integration
 
 ---
 
