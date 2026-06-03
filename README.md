@@ -45,7 +45,7 @@ The project includes:
 - Product Management
 - Cart Management
 - Order Management
-- Cloudinary Image Upload
+- Supabase Image Upload
 - Payment Integration
 - Secure Authentication
 
