@@ -20,7 +20,6 @@ The project includes:
 - Authentication
 - Loading Animations
 - Responsive Design
-- AI Chat Assistant
 
 ---
 
