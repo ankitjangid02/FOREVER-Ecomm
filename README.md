@@ -82,7 +82,7 @@ The project includes:
 - Mongoose
 - JWT
 - Multer
-- Cloudinary
+- Supabase
 
 ---
 
