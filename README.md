@@ -22,6 +22,7 @@ The project includes:
 - Responsive Design
 - Payment Integration
 - About Section
+- Contact Section
 
 ---
 
