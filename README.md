@@ -51,7 +51,7 @@ The project includes:
 
 ---
 
-# Login Page for Frontend
+# Login Page for Frontend and Admin
 - Login Page
 - Sign up Page
 - Sign in with Google Account
