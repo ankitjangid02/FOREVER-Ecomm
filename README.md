@@ -21,6 +21,7 @@ The project includes:
 - Loading Animations
 - Responsive Design
 - Payment Integration
+- About Section
 
 ---
 
