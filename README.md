@@ -51,6 +51,12 @@ The project includes:
 
 ---
 
+# Login Page
+- Login Page
+- Sign up Page
+
+---
+
 # 🚀 Tech Stack
 
 ## Frontend
