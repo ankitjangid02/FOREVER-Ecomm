@@ -107,6 +107,7 @@ const login = () => {
       </div>
 
       <button type="button" onClick={googleLogin} className='cursor-pointer w-full border py-3 rounded-lg flex items-center justify-center gap-3 hover:bg-gray-100 transition-all'>
+        {/* <img src='https://www.svgrepo.com/show/475656/google-color.svg' className='w-5 h-5' /> */}
         <img src={assets.google} className="w-10" />
         Sign in with Google
       </button> 
